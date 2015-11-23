@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 Jumbotron manager written for Kadro Merchant
 
-###[DEMO](#)
+###[DEMO](http://xmiao2.github.io/kJumboManager/JumbotronManager.html)
