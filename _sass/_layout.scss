@@ -7,7 +7,6 @@ $side-width: 25%;
     right: 0;
     top: 0;
     height: 5rem;
-    color: white;
     padding-left: $side-width;
 }
 
@@ -22,6 +21,9 @@ $side-width: 25%;
     li {
         display: inline;
         padding-right: 2rem;
+    }
+    a {
+        color: white;
     }
 }
 
@@ -74,4 +76,5 @@ $side-width: 25%;
     right: 0;
     bottom: 0;
     padding: 2rem 5rem;
+    overflow: auto;
 }
