@@ -2,7 +2,7 @@
 title: XMIAO2
 email: xmiao2@ncsu.edu
 description: > # this means to ignore newlines until "baseurl:"
-  My name is James. Welcome to my github pages.
+  My name is James! Welcome to my github pages.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://xmiao2.github.io" # the base hostname & protocol for your site
 twitter_username: jmiaoxh
