@@ -22,8 +22,15 @@ $side-width: 25%;
         display: inline;
         padding-right: 2rem;
     }
+    li.active a {
+        border-bottom: 0.2rem solid white;
+    }
     a {
         color: white;
+        padding-bottom: 0.25rem;
+    }
+    a:hover {
+        color: red;
     }
 }
 
