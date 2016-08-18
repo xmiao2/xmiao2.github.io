@@ -70,6 +70,10 @@ $side-width: 25%;
         -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
         transform: rotate(-4deg);
         box-shadow: 5px 5px 30px #333;
+        
+        &:hover {
+            transform: rotate(-1deg);
+        }
     }
 }
 
