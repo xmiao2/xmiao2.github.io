@@ -93,9 +93,13 @@ $side-width: 25%;
     padding: 2rem 5rem;
 }
 
-iframe {
+#calendar-desktop {
     width: 100%;
     height: 98%;
+}
+
+#calendar-mobile {
+    display: none;
 }
 
 #projects-container {
@@ -161,16 +165,16 @@ iframe {
         border-radius: 2rem;
         margin: 0.5rem;
     }
-
-    iframe {
-        height: 800px;
+    #calendar-desktop {
+        display: none;
+    }
+    #calendar-mobile {
+        width: 100%;
+        display: block;
     }
 }
 
 @media only screen and (max-width : 399px) {
-    #profile-avatar-mobile img {
-        display: none;
-    }
     #nav-menu {
         li {
             font-size: 0.85rem;
